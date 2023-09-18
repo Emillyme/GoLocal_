@@ -1,0 +1,96 @@
+.login-card{
+    background-color:#4FA2EC;
+    height: 700px;
+    width: 551px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-content-in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+}
+
+.login-content-in a{
+    color: #B5FBFF;
+    text-decoration: underline;
+}
+
+.login-content-in h6{
+    color: #fff;
+    padding-top: 15px;
+}
+
+.login-content-in h3{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.esqueceu-senha{
+    padding-left: 20px;
+}
+
+.login-content-in a:hover{
+    color: rgb(248, 254, 255);
+    text-decoration: underline;
+}
+
+.email, .senha{
+    padding: 10px;
+}
+
+.login-form input{
+    display: flex;
+    flex-direction: column;;
+    border: 1px solid #ffff;
+    border-radius: 50px;
+    background-color: transparent;
+    height: 63px;
+    width: 451px;
+    color: #fff;
+    padding-left: 15px ;
+} 
+
+.login-form ::placeholder{
+    color: #ffffff9f;    
+    font-size: 20px;
+} 
+
+.btn-login-form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.btn-login-form button{
+    background-color: #2681D6;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    height: 58px;
+    width: 277px;
+    font-weight: bold;
+    font-size:24px;
+}
+
+.btn-login-form button:hover{
+    background-color: #1c5a94b5;
+}
+
+.btn-cad-login-qs{
+    padding-top:260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container{
+    display: flex;
+    justify-content: right;
+    padding-top: 40px;
+    padding-right: 70px;
+}
