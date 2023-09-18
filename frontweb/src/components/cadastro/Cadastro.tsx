@@ -1,4 +1,4 @@
-import { ReactComponent as LoginImage } from "assets/images/login-image.svg";
+
 import "./styles.css";
 import { Link } from 'react-router-dom';
 
